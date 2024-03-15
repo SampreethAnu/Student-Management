@@ -26,7 +26,7 @@ namespace Student_Management.Controllers
         [HttpGet]
         public IQueryable<Student> GetStudents()
         {
-          
+          //List Of Students
           List<Student> listofStudent = new List<Student>
           {
               new Student {Studentid = 1, StudentName ="Sampreet", StudentAge=15, AdmissionDate =DateTime.Now},
